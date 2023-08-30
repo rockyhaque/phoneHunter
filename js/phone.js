@@ -86,6 +86,8 @@ const showPhoneDetails = (phone) =>{
     </div>
     <p><span class="text-xl font-bold" >Storage: </span>${phone?.mainFeatures?.storage}</p>
     <p><span class="text-xl font-bold" >GPS: </span>${phone?.others?.GPS ? phone.others.GPS : 'No GPS Available In This Device!'}</p>
+    <p><span class="text-xl font-bold" >Display Size: </span>${phone?.mainFeatures?.displaySize}</p>
+    <p><span class="text-xl font-bold" >Memory: </span>${phone?.mainFeatures?.memory} </p>
   
   `
 
